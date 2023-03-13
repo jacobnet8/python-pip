@@ -1,7 +1,7 @@
-seriveces:
+services:
   app-csv:
     build:
       context: .
-      dockerfile: Dockerfile
-    volumenes:
-      - .:/app
+      dockerfile: Dockerfile  
+    # volumenes:
+    #  - .:/app
