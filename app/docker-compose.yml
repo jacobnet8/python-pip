@@ -1,0 +1,7 @@
+seriveces:
+  app-csv:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumenes:
+      - .:/app
