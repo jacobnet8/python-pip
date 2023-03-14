@@ -13,7 +13,8 @@ def get_list():
     return """
         <h1>Hola, estoy creando mi servidor web</h1>
         <p>Jarlinzon lo esta codificando con python
-        y con estornos virtuales. ;) </p>
+        y con estornos virtuales. ;)
+        Hoy tuve ayuda de mi amigo Cris. </p>
     """    
 
 def run():
