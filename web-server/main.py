@@ -8,13 +8,13 @@ app = FastAPI()
 def get_list():
     return[1,2,3]
 
-@app.get("/contact", response_class = HTMLResponse)
+@app.get("/contact", response_class = HTMLResponse) # Esto es para devolver dato en HTML#
 def get_list():
     return """
         <h1>Hola, estoy creando mi servidor web</h1>
         <p>Jarlinzon lo esta codificando con python
-        y con estornos virtuales. ;)
-        Hoy tuve ayuda de mi amigo Cris. </p>
+        y con estornos virtuales. ;) </p>
+        <p>Hoy tuve ayuda de mi amigo Cris. </p>
     """    
 
 def run():
