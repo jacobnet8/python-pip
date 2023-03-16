@@ -1,0 +1,9 @@
+services:
+  web-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - . :/app # Esto nos sirve para enlazar mi codigo con mi contenedor # 
+    ports:
+      - "8080:80"
